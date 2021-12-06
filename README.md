@@ -1,4 +1,5 @@
 # World_Weather_Analysis
+Analysis of weather data using APIs and statistics to create visualizations and recommendations for a travel company.
 
 ## Resources:
 - Software
