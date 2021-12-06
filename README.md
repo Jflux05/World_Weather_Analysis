@@ -1,5 +1,18 @@
 # World_Weather_Analysis
 
+## Resources:
+- Software
+
+    - Python 3.7.10
+    - Pandas
+    - CitiPy
+    - Matplotlib
+    - SciPy
+    - Google Maps API
+    - Google Maps Directions API
+    - OpenWeatherMap API
+    - Jupyter Notebook
+
 ## Project Overview:
 In this analysis, we look at weather patterns from 2000 randomly selected cities around the world and offer unique insights (destinations, hotels, and travel routes) to travelers looking to book a trip, based on the users climate preferences. There are three core folders here that offer different levels of analysis: Weather_Database, Vacation_Search, and Vacation_Itinerary.
 
