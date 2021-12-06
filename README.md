@@ -1,7 +1,7 @@
 # World_Weather_Analysis
 
 ## Project Overview:
-In this analysis, we look at weather patterns from 2000 randomly selected cities around the world and offer unique insights (destinations, hotels, and travel routes) to travelers looking to book a trip, based on the users climate preferences. There are three folders here that offer different levels of analysis: Weather_Database, Vacation_Search, and Vacation_Itinerary.
+In this analysis, we look at weather patterns from 2000 randomly selected cities around the world and offer unique insights (destinations, hotels, and travel routes) to travelers looking to book a trip, based on the users climate preferences. There are three core folders here that offer different levels of analysis: Weather_Database, Vacation_Search, and Vacation_Itinerary.
 
 ### Weather_DataBase:
 The Open Weather Map API was utilized to pull weather stats from cities around the world generate the files in this folder. 
@@ -26,9 +26,15 @@ The screenshot below shows the locations of all the places in the database that 
 ![WeatherPy_vacation_map](https://github.com/Jflux05/World_Weather_Analysis/blob/1b011834b9d845a68c46fa44ea2ce5d15b52ce82/Vacation_Search/WeatherPy_vacation_map.png)
 
 ### Vacation_Itinerary: 
-Here  Vacation_Search information and the Google Maps directions API we utilized to create a vacation itinerary. For example, the image below shows a 4 stop itinerary in Central America that features Acapulco, Mexico; Kantunilkin, Mexico; Ocos, Guatemala; and Laguna De Perlas, Nicaragua.
+Here  Vacation_Search information and the Google Maps directions API we utilized in [Vacation_Itinerary.ipynb](Vacation_Itinerary.ipynb) to create a vacation itinerary, then create a marker map and a route map to display driving routes to them. For example, the image below shows a 4 stop itinerary in Central America that features Acapulco, Mexico; Kantunilkin, Mexico; Ocos, Guatemala; and Laguna De Perlas, Nicaragua.
 
-[WeatherPy_Travel_Vacation_Map](Vacation_Itinerary/WeatherPy_travel_map.png)
+- **Deliverable 3: (Create a Travel Itinerary Map)** 
+
+![WeatherPy_Travel_Vacation_Map](https://github.com/Jflux05/World_Weather_Analysis/blob/cb017a705c96db37cbed636033c04302b6de91b9/Vacation_Itinerary/WeatherPy_travel_map.png)
 
 The following image displays a hotel at each location from the itinerary:
-[WeatehrPY_Travel_Map_Markers](
+![WeatehrPY_Travel_Map_Markers](https://github.com/Jflux05/World_Weather_Analysis/blob/cb017a705c96db37cbed636033c04302b6de91b9/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+
+  
+### Weather_Data
+In this additional folder linear regression models were generated to showcase the correlation between different weather stats and coordinates. These take into consideration the different weather information thats used in the Weather_Database folder. 
